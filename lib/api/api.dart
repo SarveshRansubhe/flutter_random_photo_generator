@@ -10,7 +10,7 @@ class RandomImgApiManager {
     var randomPhotoModel1;
 
     var url = Uri.parse(
-        'https://api.unsplash.com/photos/random/?client_id=dd86kSkcBgOtbtwSzu8bHeCcmddvrd6ppif6ktBzay0');
+        'https://api.unsplash.com/photos/random/?client_id=yourclientidhere');
     try {
       http.Response response = await http.get(url);
       if (response.statusCode == 200) {
